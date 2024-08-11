@@ -1,18 +1,22 @@
 This is a Pharma Supply chain built during the NEXGEN'24 hackathon.
 
-It uses Ethereum blockchain technology realized through Truffle, the website is built using reactJs with nodejs and express js as backend.
+It uses Ethereum blockchain technology which is realized through Truffle, the website is built using ReactJs with Nodejs and Expressjs as backend.
 It is connected to the local blockchain through ganache and can be deployed locally. It is then connected to metamask to perform transactions.
 
 Idea:(Skip if you want to see only working)
-The website is aimed to provide assistance to warehouses, which enlist the various entities in thier supply chain, currently we have 
-1) manufacturer,2)shipment,3)distributor and 4) warehouse as the entities, each entity enrolls by providing thier public address through metamask and
- they are requested to enter details of the product like expiration date and date of release, they will be paying the entities through the website in Ethers.
-Our system helps making the blockchain more TRANSPARENT and IMMUTABLE.
+The website is aimed to provide assistance to warehouses, which enlist the various entities in thier supply chain, currently we have  
+1) manufacturer,2)shipment,3)distributor and 4) warehouse as the entities, each entity enrolls by providing thier public address through metamask and they are requested to enter details of the product like expiry date and quantity, they will be paying the entities through the website via metamask in Ethers.
+Our system helps making the supplychain more TRANSPARENT and IMMUTABLE.
+
+
 
 Commands to deploy:
 1)open terminal in root:
+
 truffle compile (explanation: helps to compile the solidity contract)
+
 truffle migrate --reset  (explanation: connects to the ganache workspace)
+
 2)open another terminal in client:
 npm start   (starts the react app in localhost:3000)
 
