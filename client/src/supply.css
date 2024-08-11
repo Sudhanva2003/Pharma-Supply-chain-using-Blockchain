@@ -1,0 +1,83 @@
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.wait {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 24px;
+}
+.btn-order {
+    margin-left: 50px;
+    width: 150px;
+}
+
+.btn-home {
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.btn-home:hover {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-outline-success,
+.btn-outline-danger,
+.btn-outline-primary,
+.btn-outline-warning,
+.btn-outline-info {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.btn-outline-success:hover,
+.btn-outline-danger:hover,
+.btn-outline-primary:hover,
+.btn-outline-warning:hover,
+.btn-outline-info:hover {
+    color: #fff;
+}
+
+h6 {
+    margin-top: 20px;
+}
+
+table {
+    margin-top: 20px;
+}
+
+/* Styles for smaller input boxes and buttons next to them */
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form-control-sm {
+    margin-right: 100px; /* Space between input and button */
+    width: 300px; /* Fixed width of input box */
+}
+
+.btn-submit {
+    margin-left: 10px; /* Space between input and button */
+}
+
+.step {
+    border-bottom: 2px solid #333; /* Darker line between steps */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Styles for responsive design */
+@media (max-width: 576px) {
+    .form-control-sm {
+        width: 120px; /* Adjust width on smaller screens */
+    }
+}

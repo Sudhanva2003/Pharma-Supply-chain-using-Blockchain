@@ -1,0 +1,63 @@
+/* transactions.css */
+.container {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    max-width: 1200px; 
+    margin: auto; 
+    background-color: transparent; 
+    border: none; 
+}
+
+.loading {
+    font-size: 20px;
+    text-align: center;
+    color: #555;
+}
+
+.header {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.table {
+    width: calc(100% - 40px); /* Adjust for the total space you want to add */
+    margin-left: 20px; /* Add left margin */
+    margin-right: 20px; /* Add right margin */
+    border-collapse: collapse;
+    background-color: transparent; /* Ensure background is transparent */
+}
+
+
+
+.tableHeader {
+    background-color: #000; /* Black background for table header */
+    color: white; /* White text for table header */
+    text-align: left;
+}
+
+.tableHeaderCell {
+    padding: 12px;
+    border-bottom: 2px solid #333; /* Darker border for better contrast */
+    font-weight: bold;
+}
+
+.tableRow:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.tableRow:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.tableCell {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+}
+
+.tableCell:hover {
+    background-color: #f1f1f1;
+}
